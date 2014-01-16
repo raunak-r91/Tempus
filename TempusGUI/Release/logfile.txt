@@ -1,0 +1,14 @@
+Reading input File
+Updating Display List
+Updating Pending List
+Updating Display List
+Formatting Display output
+Writing to file
+Formatting Display output
+Updating Pending List
+Updating Display List
+Updating Pending List
+Updating Display List
+Writing to file
+Formatting Display output
+Writing to file

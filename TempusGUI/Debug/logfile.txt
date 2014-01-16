@@ -1,0 +1,39 @@
+Getting Current Date
+Reading input File
+Updating Display List
+Updating Pending List
+Updating Display List
+Processing Details
+Adding
+Updating Display List
+Writing to file
+Formatting Display output
+Writing to file
+s
+Adding
+Updating Display List
+Writing to file
+Formatting Display output
+Processing Details
+Deleting
+Updating Display List
+Writing to file
+Formatting Display output
+Processing Details
+Undoing
+Updating Display List
+Writing to file
+Formatting Display output
+Processing Details
+Undoing
+Updating Display List
+Writing to file
+Formatting Display output
+Processing Details
+Undoing
+Updating Display List
+Writing to file
+Formatting Display output
+Processing Details
+Writing to file
+Formatting Display output

@@ -1,0 +1,5 @@
+Reading input File
+Updating Display List
+Updating Pending List
+Formatting Display output
+Writing to file

@@ -1,0 +1,102 @@
+﻿Build started 7/11/2011 12:36:01 AM.
+     1>Project "C:\TempusGUI\TempusGUI\TempusGUI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\TempusGUI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\TempusGUI.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt CommandParser.cpp Date.cpp Event.cpp FileStorage.cpp ListHandler.cpp Time.cpp UpcomingHandler.cpp /clr:nostdlib 
+         CommandParser.cpp
+     1>c:\tempusgui\tempusgui\TempusLibrary.h(31): warning C4018: '<' : signed/unsigned mismatch
+     1>CommandParser.cpp(186): warning C4018: '<' : signed/unsigned mismatch
+     1>CommandParser.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+     1>CommandParser.cpp(623): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         Date.cpp
+     1>c:\tempusgui\tempusgui\TempusLibrary.h(31): warning C4018: '<' : signed/unsigned mismatch
+     1>Date.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>Date.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>Date.cpp(229): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>Date.cpp(231): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Date.cpp(235): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Date.cpp(308): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         Event.cpp
+     1>c:\tempusgui\tempusgui\TempusLibrary.h(31): warning C4018: '<' : signed/unsigned mismatch
+         FileStorage.cpp
+     1>c:\tempusgui\tempusgui\TempusLibrary.h(31): warning C4018: '<' : signed/unsigned mismatch
+     1>FileStorage.cpp(24): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>FileStorage.cpp(17): warning C4101: 'index' : unreferenced local variable
+     1>FileStorage.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+         ListHandler.cpp
+     1>c:\tempusgui\tempusgui\TempusLibrary.h(31): warning C4018: '<' : signed/unsigned mismatch
+     1>ListHandler.cpp(14): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>ListHandler.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>ListHandler.cpp(77): warning C4018: '>' : signed/unsigned mismatch
+     1>ListHandler.cpp(95): warning C4018: '<' : signed/unsigned mismatch
+     1>ListHandler.cpp(136): warning C4018: '>=' : signed/unsigned mismatch
+     1>ListHandler.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+     1>ListHandler.cpp(158): warning C4018: '<' : signed/unsigned mismatch
+     1>ListHandler.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+         Time.cpp
+     1>c:\tempusgui\tempusgui\TempusLibrary.h(31): warning C4018: '<' : signed/unsigned mismatch
+     1>Time.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+     1>Time.cpp(177): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>Time.cpp(180): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Time.cpp(197): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+         UpcomingHandler.cpp
+     1>c:\tempusgui\tempusgui\TempusLibrary.h(31): warning C4018: '<' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(80): warning C4018: '<=' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(111): warning C4018: '>' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(106): warning C4101: 'i' : unreferenced local variable
+     1>UpcomingHandler.cpp(164): warning C4018: '<=' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(186): warning C4018: '>' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(182): warning C4101: 'i' : unreferenced local variable
+     1>UpcomingHandler.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(261): warning C4018: '>' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(267): warning C4018: '<' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(311): warning C4018: '<' : signed/unsigned mismatch
+     1>UpcomingHandler.cpp(385): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>c:\tempusgui\tempusgui\upcominghandler.cpp(479): warning C4715: 'UpcomingHandler::undoCommand' : not all control paths return a value
+         All outputs are up-to-date.
+       CoreResGen:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\TempusGUI\Release\TempusGUI.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\TempusGUI.Form1.resources /ASSEMBLYRESOURCE:Release\TempusGUI.SplashScreen.resources /MANIFEST /ManifestFile:"Release\TempusGUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\TempusGUI\Release\TempusGUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         Release\CommandParser.obj
+         Release\Date.obj
+         Release\Event.obj
+         Release\FileStorage.obj
+         Release\HistoryHandler.obj
+         Release\ListHandler.obj
+         Release\MainLogic.obj
+         Release\SplashScreen.obj
+         Release\stdafx.obj
+         Release\TempusExceptions.obj
+         Release\TempusGUI.obj
+         Release\Time.obj
+         Release\UpcomingHandler.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         TempusGUI.vcxproj -> C:\TempusGUI\Release\TempusGUI.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\TempusGUI\Release\TempusGUI.exe;#1" /manifest Release\TempusGUI.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\TempusGUI.unsuccessfulbuild".
+         Touching "Release\TempusGUI.lastbuildstate".
+     1>Done Building Project "C:\TempusGUI\TempusGUI\TempusGUI.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.57
